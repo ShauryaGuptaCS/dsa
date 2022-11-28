@@ -1,4 +1,4 @@
-class Solution {
+class SortColorsLeetcode75 {
     public void sortColors(int[] arr) {
 
         int i, a = 0, b = 0, c = 0, flag = 0, temp;
