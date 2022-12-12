@@ -1,0 +1,13 @@
+    public static int count(Node head, int search_for)
+    {
+        //code here
+        Node current=head;
+        int freq=0;
+        while(current!=null){
+            if(current.data==search_for){
+                freq+=1;
+            }
+            current=current.next;
+        }
+        return freq;
+    }
